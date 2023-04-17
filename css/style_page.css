@@ -1,0 +1,246 @@
+@charset "utf-8";
+@import url("../../webfonts/ananda_black/stylesheet.css");
+
+header,nav,main,footer{
+    padding: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section {
+    width: 800px;
+    padding: 20px;
+    background-color: rgba(250,196,79,1.00);
+    color: rgba(34,30,7,1.00);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    padding-bottom: 15px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+    color: rgba(255,255,255,1.00);
+}
+
+
+nav {
+    height: 60px;
+    background-color: hsla(39,100%,72%,1.00);
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    width: 67px;
+    padding: 10px;
+    background-color: rgba(255,165,0,1.00);
+    color: rgba(255,253,253,1.00);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-align: center;
+    border: 5px double rgba(255,255,255,1.00);
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: baseline;
+    border-radius: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+}
+ul li a:hover {
+    font-weight: bold;
+    width: 42px;
+    line-height: 0px;
+    font-size: larger;
+    color: rgba(255,229,184,1.00);
+    border-radius: 0;
+    border-width: 0px;
+}
+
+
+
+
+main {
+    height: auto;
+    background-color: hsla(38,100%,86%,1.00);
+}
+footer {
+    height: 50px;
+    background-color: hsla(39,100%,36%,1.00);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer h5 {
+    color: hsla(0,0%,100%,1.00);
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 {
+    color: hsla(0,0%,100%,1.00);
+    text-align: center;
+    font-family: "ananda black";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+}
+
+
+
+
+header{
+	background-color:orange;
+	height: 100px;
+}
+#img1 {
+    width: 50%;
+    height: auto;
+}
+#img0 {
+    width: 300px;
+    height: auto;
+}
+
+#img0 {
+}
+.img_1 {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 20px solid rgba(255,255,255,1.00);
+}
+#img2 {
+    width: 25%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+#img_3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#fondo_1 {
+    background-image: url(../imagenes/jpg/ardilla2.jpg);
+    background-position: 5% 1%;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-repeat: repeat;
+}
+.p1 {
+    width: 380px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(250,196,79,0.35);
+}
+.img_2 {
+}
+.img_filter_size {
+    width: 250px;
+    margin: 5px;
+    height: auto;
+}
+.escala_grises {
+    filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(90%);
+}
+.opacity {
+    filter: opacity(30%);
+}
+.brillo {
+    filter: brightness(250%);
+}
+.contraste {
+    filter: contrast(200%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.desenfocado {
+    filter: blur(3px);
+}
+.sombra {
+    filter: drop-shadow(5px 5px 10px black);
+}
+main section p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-variant: normal;
+    font-weight: normal;
+    color: rgba(50,42,31,1.00);
+}
+.img_fotoperfil {
+    float: right;
+    padding-left: 56px;
+
+}
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 499px;
+    height: 324px;
+    display: block;
+
+}
+.video-1 {
+    width: 49%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding-top: 0px;
+    border: 12pt solid rgba(255,255,255,1.00);
+}
+.img_2b {
+    width: 11%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.video-2 {
+}
+.animate__delay-3s {
+}
+.animate__delay-4s {
+}
+.animate__delay-2s {
+}
+.image_3 {
+    width: 17%;
+    height: auto;
+    float: left;
+    padding-right: 32px;
+}
+.animete__delay-3s {
+}
+.animate_repeat-3 {
+}
+.animate__delay-1s {
+}
+.animate_delay-1s {
+}
+nav ul {
+    width: 100%;
+}

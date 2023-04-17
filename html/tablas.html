@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header, body nav, body main, body footer {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body header  {
+    color: #FFFFFF;
+    background-color: #8A8A8A;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body main {
+    background-color: #29505E;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-right: auto;
+}
+main section h2 {
+    color: #023147;
+}
+body main section {
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    background-color: #83E5E8;
+    width: 900px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+main section h2 {
+    color: #1D1E1E;
+    font-style: italic;
+    font-size: 32px;
+}
+body footer {
+    background-color: #4D99BD;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+body nav {
+    color: #DFE8EB;
+    background-color: #4D99BD;
+    padding: 30px;
+    text-align: center;
+}
+nav ul li {
+    width: 80px;
+    height: 25px;
+    color: #023147;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #83E5E8;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border: 5px solid #29505E;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #0C1B23;
+}
+ul li a:hover {
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: larger;
+}
+main section p {
+    color: #023545;
+}
+	table{
+		width:100%;
+		border-style: solid;
+		border-width: 3px;
+		border-color: midnightblue;
+		border-collapse: collapse;
+	}
+	table tr{
+		color:darkcyan;
+		background-color:white;
+	}
+	table th,table td{
+		border: 2px solid #4D99BD;
+		padding: 5px;
+		text-align: center; 
+	}
+	#tabla_1{
+    font-family: alegreya;
+    border-collapse: separate;
+    padding: 30px;
+    background-color: #798488;
+	}
+#tabla_1 tbody td:hover  {
+    background-color: #2589A7;
+    color: #FFFFFF;
+}
+	#tabla_1
+	#tabla_1 td{
+    background-color: snow;
+	}
+	#tabla_1 th{
+    background-color: cadetblue;
+    color: #FFFFFF;
+	}
+	#tabla_1 tfoot th{
+		background-color: midnightblue;
+	}
+#tabla_1 tfoot td {
+    background-color: #023147;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#tabla_2 {
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    padding: 15px;
+    margin-right: auto;
+}
+#tabla_2 tbody tr:hover {
+    background-color: #9A9BDB;
+    color: #FFFFFF;
+    font-size: large;
+}
+#tabla_2 tfoot td {
+    background-color: #44476C;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+#tabla_2 tbody td {
+    text-align: left;
+}
+#tabla_2 th {
+    background-color: #31338B;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#tabla_3 {
+}
+#tabla_3 tbody tr:nth-child(even) {
+    background-color: #079B86;
+    color: #FFFFFF;
+}
+#tabla_3 tbody tr:nth-child(odd) {
+    background-color: #1A383A;
+    color: #FFFFFF;
+}
+#tabla_3 thead th {
+    color: #0C1B23;
+    background-color: #5EF4DF;
+}
+#tabla_3 tfoot td {
+    background-color: #454747;
+    color: #FFFFFF;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/acme:n4:default;alegreya:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+</header>
+<nav>
+ <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="Práctica1.html">Formatos </a></li>
+	<li><a href="imagenes.html">Imágenes</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="audio.html">Audio</a></li>
+    <li><a href="animación.html">Animación</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas labore veritatis perferendis tempore sequi vel. Ullam dolore, quod perspiciatis earum, pariatur iure, consequatur nostrum similique voluptatem reiciendis esse corporis asperiores saepe fugiat dolores velit non unde sapiente deserunt nobis reprehenderit omnis doloremque! Sunt est fuga hic modi debitis eaque iusto, veniam dolore dicta, odio deserunt eligendi tempore. Sint animi vero quidem voluptas, sed fuga dignissimos voluptatibus temporibus quam expedita tempore quibusdam possimus nam id officia omnis, non. Dolore nobis nemo aliquam nulla eos nisi facere facilis, odio ipsum quaerat, nostrum aspernatur, adipisci perspiciatis voluptas consequuntur eaque minus tempore numquam officiis.</p>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido Paterno</th>
+				<th>Apellido Materno</th>
+				<th>Edad</th>
+				<th>Cooperación</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Iván</td>
+				<td>Ramos</td>
+				<td>Ortega</td>
+				<td>21</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>Ricardo</td>
+				<td>Marin</td>
+				<td>Martinez</td>
+				<td>16</td>
+				<td>120</td>
+			</tr>
+			<tr>
+				<td>Maite</td>
+				<td>Gúzman</td>
+				<td>Ortega</td>
+				<td>19</td>
+				<td>150</td>
+			</tr>
+			<tr>
+				<td>Rocio</td>
+				<td>Martinez</td>
+				<td>Pérez</td>
+				<td>30</td>
+				<td>90</td>
+			</tr>
+			<tr>
+				<td>Isaac</td>
+				<td>Luna</td>
+				<td>Rojas</td>
+				<td>27</td>
+				<td>140</td>
+			</tr>
+			
+		</tbody>
+		<tfoot>
+			<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Total</td>
+			<td>600</td>
+			</tr>
+		</tfoot>
+	</table>
+</section>
+  <section>
+    <h2>Tabla modificada a partir de un identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, delectus optio officia provident aut soluta dolor recusandae pariatur quos ratione. Veritatis alias omnis dolore consequatur impedit, sed dolorum. Repudiandae, dolores, similique. Culpa assumenda, incidunt totam explicabo! Rerum quae voluptatum nobis saepe, cupiditate asperiores quisquam nulla amet repellat officia architecto provident, reprehenderit quasi quos, maiores at perferendis sapiente deleniti? Sunt atque, assumenda, qui quas distinctio laudantium vero quae unde ipsum consectetur omnis laboriosam aliquam enim. Perspiciatis sit mollitia corporis, vel at soluta quas consequatur quos rem sequi animi sapiente nihil ratione ipsam aspernatur sed cupiditate deleniti. Quas error, modi ullam vel.</p>
+    <table id="tabla_1">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Iván</td>
+          <td>Ramos</td>
+          <td>Ortega</td>
+          <td>21</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Ricardo</td>
+          <td>Marin</td>
+          <td>Martinez</td>
+          <td>16</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Maite</td>
+          <td>Gúzman</td>
+          <td>Ortega</td>
+          <td>19</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Rocio</td>
+          <td>Martinez</td>
+          <td>Pérez</td>
+          <td>30</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Isaac</td>
+          <td>Luna</td>
+          <td>Rojas</td>
+          <td>27</td>
+          <td>140</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>600</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi corrupti, voluptates animi in ipsam, consectetur incidunt eius explicabo veritatis reiciendis perspiciatis quisquam odio non molestias alias libero praesentium blanditiis quod dolores! Deserunt delectus neque sit cupiditate, ipsam, ratione. Ipsum vitae dignissimos voluptatum neque nihil quaerat, eius omnis explicabo debitis totam dolore minus, assumenda ea error nemo atque magni! Asperiores beatae accusamus laudantium perspiciatis doloremque, necessitatibus maxime quia laborum, cupiditate ut. Repellendus, itaque accusamus. Pariatur deleniti vel aperiam, amet praesentium voluptatum officiis quaerat totam voluptatem sequi in, aliquam similique labore sed eum rem, temporibus beatae! Eaque possimus ratione consequuntur repellendus alias.</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Iván</td>
+          <td>Ramos</td>
+          <td>Ortega</td>
+          <td>21</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Ricardo</td>
+          <td>Marin</td>
+          <td>Martinez</td>
+          <td>16</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Maite</td>
+          <td>Gúzman</td>
+          <td>Ortega</td>
+          <td>19</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Rocio</td>
+          <td>Martinez</td>
+          <td>Pérez</td>
+          <td>30</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Isaac</td>
+          <td>Luna</td>
+          <td>Rojas</td>
+          <td>27</td>
+          <td>140</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>600</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, amet sapiente vero exercitationem ab harum quae earum iste eius, minima fuga reprehenderit a! Quod facere doloribus sunt ratione voluptatum aliquid, debitis error earum sit, nobis quidem voluptates, velit dignissimos veritatis rem alias similique ut. Laborum expedita consectetur dolor distinctio. Necessitatibus est repellendus asperiores laboriosam illo incidunt laudantium possimus doloribus dignissimos, eligendi, quam blanditiis eos aperiam dicta qui dolores, ipsum unde delectus maxime ab. Aspernatur possimus temporibus rem dolore quae amet placeat quia incidunt tenetur, quibusdam, ut optio, impedit sunt officia laudantium. Dolor porro molestias debitis officiis animi dolores enim delectus.</p>
+    <table id="tabla_3">
+		<thead>
+		<tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Apellido&nbsp;</th>
+          <th scope="col">Correo&nbsp;</th>
+          <th scope="col">Teléfono&nbsp;</th>
+			<th>Cooperación</th>
+        </tr>
+		</thead>
+      <tbody>
+        <tr>
+          <td>Juan Carlos&nbsp;</td>
+          <td>Rosas Luna&nbsp;</td>
+          <td>j_charly21@gmail.com&nbsp;</td>
+          <td>2223252627&nbsp;</td>
+			<td>200</td>
+        </tr>
+        <tr>
+          <td>Sandra</td>
+          <td>Morales Juarez&nbsp;</td>
+          <td>&nbsp;jumo_34@hotmail.com</td>
+          <td>&nbsp;2322728930</td>
+			<td>120</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Linda</td>
+          <td>Jimenez Nuñez</td>
+          <td>jin44@gmail.com&nbsp;</td>
+          <td>&nbsp;2321567900</td>
+			<td>70</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Miranda</td>
+          <td>Perez Diaz&nbsp;</td>
+          <td>&nbsp;mira_diaz3@gmail.com</td>
+          <td>2456353550&nbsp;</td>
+			<td>145</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Francisco</td>
+          <td>Gutierrez Flores&nbsp;</td>
+          <td>guty24@gamil.com&nbsp;</td>
+          <td>&nbsp;2873625444</td>
+			<td>80</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Karen</td>
+          <td>Durán López&nbsp;</td>
+          <td>katy99@gmail.com&nbsp;</td>
+          <td>&nbsp;2349887633</td>
+			<td>&nbsp;75</td>
+        </tr>
+      </tbody>
+		<tfoot>
+			<tr>
+				<td>&nbsp;</td>
+				<td></td>
+				<td></td>
+				<td>Total</td>
+				<td>690</td>
+			</tr>
+		</tfoot>
+    </table>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Ruth Marin Martinez</h5>
+</footer>
+</body>
+</html>

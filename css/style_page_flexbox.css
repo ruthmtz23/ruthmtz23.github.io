@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import url("../../webfonts/AlegreyaSans_Bold/stylesheet.css");
+
+body main {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-color: #69E9A7;
+}
+main section  {
+    width: 90%;
+    margin-left: auto;
+    padding: 30px;
+    margin-right: auto;
+    height: auto;
+}
+main section div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ACEFCC;
+}
+.flex-container-sone   {
+    display: flex;
+    flex-direction: row;
+}
+.flex-container-stwo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container-stwo div {
+}
+
+
+
+header , nav, main, footer{
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #11683C;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+}
+nav {
+    background-color: #099A6F;
+    color: #11683C;
+    height: 50px;
+}
+footer {
+    background-color: #11683C;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+.img_1 {
+    height: auto;
+    width: 54%;
+    float: right;
+}
+main h2 {
+    font-family: "AlegreyaSans Bold";
+    color: #FFFFFF;
+    font-size: xx-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex-container-four {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2DB46E;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container-four div {
+    height: auto;
+    width: 150px;
+}
+.flex-container-five {
+    display: flex;
+    margin: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #2B4B3B;
+}
+.flex-container-five div {
+}
